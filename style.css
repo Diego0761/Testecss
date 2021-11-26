@@ -1,5 +1,6 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
 /*container {
     
 } */
+
 
 button {
     background-color: rgb(62, 62, 62);
@@ -27,3 +29,21 @@ button {
     right: 0;
 }
 
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+p {
+    padding-top: 20px;
+}
+
+section {
+    background-color: rgb(192, 192, 192);
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
