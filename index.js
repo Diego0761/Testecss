@@ -1,6 +1,7 @@
+/*
 document.getElementById('button').addEventListener('mouseover', mousedentro);
 document.getElementById('button').addEventListener('mouseout', mousefora);
-
+*/
 
 var cb = document.getElementById('button2');
 cb.addEventListener('click', coloredclick);
@@ -15,12 +16,14 @@ function coloredclick() {
     cb.style.backgroundColor = cor;
 }
 
+/*
 function mousedentro() {
     var buttons = document.getElementById('button')
-    buttons.style.backgroundColor = '#515151 ';
+    buttons.style.backgroundColor = '#515151';
 }
 
 function mousefora() {
     var buttons = document.getElementById('button')
     buttons.style.backgroundColor = '#626262';
 }   
+*/
