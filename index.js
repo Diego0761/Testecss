@@ -14,7 +14,7 @@ function coloredclick() {
     var blue = Math.floor(Math.random() * 256)
     var cor = 'rgb(' + red + ',' + green + ',' + blue + ')';
     cb.style.backgroundColor = cor;
-    vazio.innerHTML = `<a href="https://www.google.com/search?q=${cor}" target="_blank">${cor}</a>`
+    vazio.innerHTML = `<a href="https://www.google.com/search?q=${cor}" target="_blank" style="text-decoration:none">${cor}</a>`
     
 }
 
